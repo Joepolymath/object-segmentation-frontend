@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Live Streaming Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Object Detection" />
+    <script>
+      addEventListener(
+        "load",
+        function () {
+          setTimeout(hideURLbar, 0);
+        },
+        false
+      );
+
+      function hideURLbar() {
+        window.scrollTo(0, 1);
+      }
+    </script>
+    <!-- Custom Theme files -->
+    <link
+      href="{{ url_for('static', path='css/bootstrap.css') }}"
+      type="text/css"
+      rel="stylesheet"
+      media="all"
+    />
+    <!-- <link
+      href="{{ url_for('static', path='css/style.css') }}"
+      type="text/css"
+      rel="stylesheet"
+      media="all"
+    /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+      rel="stylesheet"
+    />
+    <!-- //online-fonts -->
+  </head>
+
+  <body>
+    <section class="main-banner" id="home">
+      <div class="layer">
+        <div class="header-wthree-top-w3layouts text-right">
+          <h1 class="logo">
+            <a href="/">Live Object Segmentation</a>
+          </h1>
+          <ul class="list-unstyled apps-lists text-right">
+            <li>
+              <a href="./detection.html" class="btn">Detect Object</a>
+            </li>
+            <li>
+              <a href="/login.html" class="btn">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="baner-info-w3layouts text-center">
+            <h3>Object Segmentation</h3>
+            <h6 class="mx-auto mt-md-4 mt-3">
+              This is an object detection product that is built and tailored
+              towards obstacles on road. Which could be harnessed by autonomous
+              vehicles.
+            </h6>
+            <!-- <h6 class="mx-auto mt-md-4 mt-3">
+              TensorFlow is a free and open-source software library for machine
+              learning and artificial intelligence. It can be used across a
+              range of tasks but has a particular focus on training and
+              inference of deep neural networks.
+            </h6> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //banner -->
+    <!--/ banner-bottom-w3ls -->
+  </body>
+</html>

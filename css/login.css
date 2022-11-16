@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-div {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/girl.jpg);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-div {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  color: white;
+}
+input {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  margin: 12px 0;
+}
+button {
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  /* width: 100%; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
